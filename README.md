@@ -1,1 +1,1 @@
-# radio.bpatches.com
+bpatches.com
