@@ -3,7 +3,7 @@ main
 	max-width: 800px;
 	margin: 0 auto;
 	line-height: 1.5;
-	background-color: #2D0000;
+	background-color: #230000;
 	padding: 10px 20px 5px 30px;
 	border: 1px solid #FFA8A8;
 }
@@ -14,7 +14,7 @@ main
 	border: 1px solid #FFA8A8;
 	height: 110px;
 	padding: 10px;
-	background-color: #230000;
+	background-color: #1E0000;
 }
 .song-history
 {
@@ -25,10 +25,14 @@ body
 {
 	font-family: sans-serif;
 	color: #FFE0E0;
-	background-color: #230000;
+	background-color: #1E0000;
 }
 a{
 	color: #FFE0E0;
+}
+a:hover
+{
+	color:#CBBDBD;
 }
 p a.page-link
 {
