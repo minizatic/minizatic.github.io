@@ -2,9 +2,9 @@ main
 {
 	max-width: 800px;
 	margin: 0 auto;
-	line-height: 1.5;
-	background-color: #230000;
-	padding: 10px 20px 5px 30px;
+	line-height: 1.25;
+	background-color: #38000E;
+	padding: 10px 30px 15px 40px;
 	border: 1px solid #FFA8A8;
 }
 .audio-player
@@ -14,7 +14,7 @@ main
 	border: 1px solid #FFA8A8;
 	height: 110px;
 	padding: 10px;
-	background-color: #1E0000;
+	background-color: #230009;
 }
 .song-history
 {
@@ -25,7 +25,7 @@ body
 {
 	font-family: sans-serif;
 	color: #FFE0E0;
-	background-color: #1E0000;
+	background-color: #230009;
 }
 a{
 	color: #FFE0E0;
@@ -37,7 +37,7 @@ a:hover
 p a.page-link
 {
 	position: relative;
-	text-shadow: 0 -10px 150px, 0 0 1px, 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 1px 1px #000;
+	text-shadow: 0 -10px 150px, 0 0 1px, 0 0 0.5em #ff4482, 0 0 0.5em #ff4482, 0 1px 1px #000;
 }
 p a.page-link::before
 {
@@ -55,5 +55,9 @@ p a.page-link::before
 }
 h1
 {
-	text-shadow: 0 -20px 150px, 0 0 2px, 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 1px 1px #000;
+	text-shadow: 0 -20px 150px, 0 0 2px, 0 0 0.5em #ff4482, 0 0 0.5em #ff4482, 0 1px 1px #000;
+}
+.links
+{
+	border-top: 1px dotted #FFA8A8;
 }
