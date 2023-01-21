@@ -11,7 +11,7 @@ main
 {
 	max-width: 600px;
 	min-width: 50%;
-	border: 1px solid black;
+	border: 1px solid #FFA8A8;
 	height: 110px;
 	padding: 10px;
 	background-color: #230000;
@@ -24,9 +24,7 @@ main
 body
 {
 	font-family: sans-serif;
-	/*color: #333;*/
 	color: #FFE0E0;
-	/*background-color: #eee;*/
 	background-color: #230000;
 }
 a{
@@ -35,6 +33,7 @@ a{
 p a
 {
 	position: relative;
+	text-shadow: 0 -10px 150px, 0 0 1px, 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 1px 1px #000;
 }
 p a::before
 {
@@ -49,4 +48,8 @@ p a::before
 {
 	text-align: center;
 	font-size: 10pt;
+}
+h1
+{
+	text-shadow: 0 -20px 150px, 0 0 2px, 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 1px 1px #000;
 }
