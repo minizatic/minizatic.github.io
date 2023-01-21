@@ -30,12 +30,12 @@ body
 a{
 	color: #FFE0E0;
 }
-p a
+p a.page-link
 {
 	position: relative;
 	text-shadow: 0 -10px 150px, 0 0 1px, 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 1px 1px #000;
 }
-p a::before
+p a.page-link::before
 {
 	content: '⇒';
 	color: #999;
