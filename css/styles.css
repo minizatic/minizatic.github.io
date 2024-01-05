@@ -25,6 +25,9 @@ h2{
 	text-align: center;
 	font-size: 10pt;
 }
+a.page-link {
+	font-weight: normal;
+}
 p a.page-link
 {
 	position: relative;
@@ -37,4 +40,7 @@ p a.page-link::before
 	font-weight: bold;
 	position: absolute;
 	left: -1.25rem;
+}
+.email-address {
+	font-weight: normal;
 }
