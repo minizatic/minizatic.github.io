@@ -3,61 +3,38 @@ main
 	max-width: 800px;
 	margin: 0 auto;
 	line-height: 1.25;
-	background-color: #38000E;
+	background-color: #f7f7f7;
 	padding: 10px 30px 15px 40px;
-	border: 1px solid #FFA8A8;
-}
-.audio-player
-{
-	max-width: 600px;
-	min-width: 50%;
-	border: 1px solid #FFA8A8;
-	height: 110px;
-	padding: 10px;
-	background-color: #230009;
-}
-.song-history
-{
-	min-width: 95%;
-	min-height: 450px;
+	border: 1px solid #aaa;
 }
 body
 {
 	font-family: sans-serif;
-	color: #FFE0E0;
-	background-color: #230009;
+	color: #222;
 }
-a{
-	color: #FFE0E0;
+h1{
+	text-decoration: underline 2px dashed;
+	font-family: monospace;
 }
-a:hover
-{
-	color:#CBBDBD;
-}
-p a.page-link
-{
-	position: relative;
-	text-shadow: 0 -10px 150px, 0 0 1px, 0 0 0.5em #ff4482, 0 0 0.5em #ff4482, 0 1px 1px #000;
-}
-p a.page-link::before
-{
-	content: '⇒';
-	color: #999;
-	text-decoration: none;
-	font-weight: bold;
-	position: absolute;
-	left: -1.25rem;
+h2{
+	font-weight: normal;
+	font-size: 1.25rem;
 }
 .footer
 {
 	text-align: center;
 	font-size: 10pt;
 }
-h1
+p a.page-link
 {
-	text-shadow: 0 -20px 150px, 0 0 2px, 0 0 0.5em #ff4482, 0 0 0.5em #ff4482, 0 1px 1px #000;
+	position: relative;
 }
-.links
+p a.page-link::before
 {
-	border-top: 1px dotted #FFA8A8;
+	content: '⇒';
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	position: absolute;
+	left: -1.25rem;
 }
